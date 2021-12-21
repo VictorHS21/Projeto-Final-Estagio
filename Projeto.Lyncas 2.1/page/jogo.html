@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Jogo_da_velha</title>
+        <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../css/jogo.css" media="screen" />
+    </head>
+
+    <body>
+
+        <div id="box_game">
+                <div class="menu_game">
+                    <p class="participante">Vitórias do Jogador:</p>
+
+                    <p id="pointer"><--- <br> ---></p>
+
+                    <p id="nomeBot" class="participante">Vitórias do Bot:</p>
+                </div>
+                
+                <div class="menu_game">
+                    <p id="playerPontuacao" class="p_pontuacao">0</p>
+                    
+                    <p id="marcacao">X - O</p>
+
+                    <p id="botPontuacao" class="p_pontuacao">0</p>
+                </div>
+
+                <div id="the_game">
+                    
+                    <table>
+
+                        <tbody>
+
+                            <tr>
+                                <td id="box1" class="border_right border_bottom"></td>
+                                <td id="box2" class="border_right border_bottom"></td>
+                                <td id="box3" class="border_bottom"></td>
+                            </tr>
+
+                            <tr>
+                                <td id="box4" class="border_right border_bottom"></td>
+                                <td id="box5" class="border_right border_bottom"></td>
+                                <td id="box6" class="border_bottom"></td>
+                            </tr>
+
+                            <tr>
+                                <td id="box7" class="border_right"></td>
+                                <td id="box8" class="border_right"></td>
+                                <td id="box9"></td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                    <div id="complicado">
+
+                        <p id="clear" class="bottom_button">Limpar</p>
+                        <a href="C:/Users/lyncas/Documents/Estágio_na_Lyncas/Projeto.Lyncas 2.1/page/registro.html" class="bottom_button">Voltar</a>
+
+                    </div>
+
+                </div>
+        </div>
+        <script src="../js/localStorage.js"></script>
+        <script src="../js/jogoAPI.js" async defer></script>
+        <script src="../js/jogo.js" async defer></script>
+    </body>
+
+</html>

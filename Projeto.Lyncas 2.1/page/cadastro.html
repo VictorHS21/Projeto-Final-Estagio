@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css" media="screen" />
+    <script src="https://kit.fontawesome.com/536b1b5193.js" crossorigin="anonymous"></script>
+    <title>Cadastro_usuario</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 id="h1_header">About you</h1>
+            <p id="p_header">Tell us who you are! You can modify your personal information here.</p>
+        </header>
+        <main>
+            <form id="form_cadastro">
+                <div class="row">
+                    <div class="column">
+                        <label for="name">Name
+                            <div class="question_circle_box"><i class="fas fa-question-circle question_circle">
+                            <span class="span_question">Some information about something, really <br>long. Helping users to know what this is.</span></i></div>
+                        </label>
+                        <input type="text" id="first_name" name="first_name" required placeholder="ex. Jonh" pattern="[A-z\s]+$">
+                    </div>
+                    <div class="column">
+                        <label for="last_name">Last name</label>
+                        <input type="text" id="last_name" class="input_right" name="last_name" required placeholder="ex. Lewis" pattern="[A-z\s]+$">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="holi :)" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    </div>
+                    <div class="column">
+                        <label for="phone">Mobile phone</label>
+                        <input type="tel" id="phone" class="input_right" name="phone" onkeyup="mask( this, maskPhone );" required placeholder="ex. XX-X-XXXX-XXXX">
+                    </div>
+                </div>
+                <div id="birthday">
+                    <label id="label_birthday" for="day">Birthday</label>
+                    <div id="row_birthday_select">
+                        <div class="column_birthday">
+                            <select name="day" id="day" onclick="selectColorDay()"></select>
+                        </div>
+                        <div class="column_birthday">
+                            <select name="month" id="month" onclick="selectColorMonth()"></select>
+                        </div>
+                        <div class="column_birthday">
+                            <select name="year" id="year" onclick="selectColorYear()"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <label for="password" id="labelPassword">Password</label>
+                        <input type="password" id="password" name="password" required placeholder="**********" pattern="[a-z0-9._%+-]{8,}$">
+                    </div>
+                    <div class="column">
+                        <label for="check_password" id="labelCheck_password">Check password</label>
+                        <input type="password" id="check_password" class="input_right" name="check_password" required placeholder="**********" pattern="[a-z0-9._%+-]{8,}$">
+                    </div>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <button id="button_footer" form="form_cadastro">Save changes</button>
+        </footer>
+    </div>
+    <script src="../js/localStorage.js"></script>
+    <script src="../js/cadastro.js"></script>
+</body>
+</html>
+
+<!--Video para padrões do input, https://www.youtube.com/watch?v=4_yovxCfGAE-->

@@ -1,0 +1,71 @@
+/*title box*/
+#title_login {
+    text-align: center;
+    background-color: royalblue;
+    padding: 0.83em 15px;
+    margin: 0px;
+}
+
+/*fieldset*/
+fieldset {
+    color: gray;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*text in box*/
+.text_box {
+    position: relative;
+}
+
+/*text user*/
+.input_text {
+    border: 2px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    padding: 8px;
+    letter-spacing: 1px;
+}
+
+#conectado, #conectado2 {
+    cursor: pointer;
+}
+    /* Em cima tem a propriedade cursor: na qual possui diversas funções,
+    https://www.w3schools.com/csSref/pr_class_cursor.asp nesse site demonstra essas 
+    varia funções. */
+
+
+/*div button*/
+#div_button {
+    border-top: 2px solid gray;
+    padding: 22px;
+    text-align: right;
+}
+
+/*pegunta se tem uma conta*/
+#pergunta {
+    color: gray;
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+#pergunta:hover {
+    text-decoration: underline;
+}
+
+/*button*/
+#submit {
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 9px 10px;
+    
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;  
+}

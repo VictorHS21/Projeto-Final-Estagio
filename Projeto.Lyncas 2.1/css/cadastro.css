@@ -1,0 +1,165 @@
+#container {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*header*/
+header {
+    border-bottom: 1px solid gray;
+    padding: 25px 30px;
+    background-color: royalblue;
+}
+
+#h1_header {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#p_header {
+    margin: 0px;
+}
+
+
+
+/*main*/
+main {
+    color: gray;
+    padding: 25px 30px;
+    display: flex;
+}
+
+#form_cadastro {
+    width: 100%;
+}
+
+label{
+    cursor: pointer;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid rgb(221, 221, 221);
+    margin: 10px 0px 25px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0px 8px;
+}
+
+.input_right {
+    float: right;
+}
+
+.errorInput {
+    border: 2px solid red !important;
+}
+
+.errorInputPassword {
+    border: 2px solid red !important;
+}
+
+/*birthday*/
+#birthday {
+    width: 100%;
+}
+
+#label_birthday {
+    margin-left: 8px;
+}
+
+#row_birthday_select {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.column_birthday {
+    box-sizing: border-box;
+    width: 33.333%;
+    padding: 0px 8px;
+}
+
+#day, #month, #year {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px 0px 25px;
+    border: 2px solid rgb(221, 221, 221);
+    color: gray;
+    outline: none;
+}
+
+/*pop-up*/
+.question_circle {
+    font-size: 10px;
+    color: orange;
+}
+
+.question_circle_box {
+    position: relative;
+    display: inline-block;
+}
+
+.span_question{
+    visibility: hidden;
+    width: 280px;
+    background-color: white;
+    color: orange;
+    font-size: 13px;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.question_circle .span_question::after {
+    content: "";
+    position: absolute;
+    top: 105%;
+    left: 20%;
+    margin-left: -3px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: orange transparent transparent transparent;
+}
+
+.question_circle:hover .span_question{
+    visibility: visible;
+    opacity: 1;
+}
+/*site para entender pop--up
+https://www.w3schools.com/howto/howto_css_tooltip.asp*/
+
+
+
+/*footer*/
+footer {
+    border-top: 2px solid gray;
+    padding: 35px;
+    text-align: center;
+}
+
+#button_footer {
+    color: white;
+    background-color: orangered;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

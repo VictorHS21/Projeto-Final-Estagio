@@ -1,0 +1,89 @@
+/*caixa central*/
+#box_game {
+    width: 50%;
+}
+
+/*menu da box*/
+.menu_game {
+    display: flex;
+    justify-content: space-between;
+    background-color: royalblue;
+}
+
+/*ajuste do nome do jogador*/
+.participante {
+    margin: auto;
+    margin-bottom: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+/*pontuação do jogo*/
+.p_pontuacao {
+    font-size: 25px;
+    margin: 7px auto 15px; 
+}
+
+/*botão para mudar o lado*/
+#pointer {
+    cursor: pointer;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 40px;
+}
+
+#pointer:hover {
+    color: dodgerblue;
+}
+
+#a {
+    margin-top: 10px;
+    width: 40px;
+}
+
+/*tebela temporaria*/
+table {
+    margin: 20px auto 20px auto;
+
+}
+
+td {
+    width: 150px;
+    height: 150px; 
+    text-align: center; 
+    color: dodgerblue;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+.border_right {
+    border-right: 2px solid royalblue;
+}
+
+.border_bottom {
+    border-bottom: 2px solid royalblue;
+}
+
+/*parde dos botões inferiores, tava dificil essa parte*/
+#complicado {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bottom_button {
+    margin: -50px 40px 30px;
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 9px 10px;
+
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer; 
+}
+
+
+.bottom_button:hover {
+    background-color: royalblue;
+}

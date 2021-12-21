@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="../css/registro.css" media="screen" />
+        <script src="https://kit.fontawesome.com/536b1b5193.js" crossorigin="anonymous"></script>
+        <title>Registro_usuario</title>
+    </head>
+    <body onload="showUsers()">
+        <div id="container">
+            <header>
+                <h1><span id="logo">User</span> management</h1>
+                <div id="div_header">
+                    <a href="#" class="button_header"><span class="margin_icom"><i class="fas fa-file icom_file"></i></span> Export to excel</a>
+                    <a href="cadastro.html" class="button_header"><span class="margin_icom"><i class="fas fa-times-circle add_icom"></i></span> Add new user</a>
+                </div>
+            </header>
+            <main>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="line_th first_colum">#</th>
+                            <th class="line_th">Name</th>
+                            <th class="line_th">Data Created</th>
+                            <th class="line_th just">Role</th>
+                            <th class="line_th just">Status</th>
+                            <th class="line_th last_colum align">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                    </tbody>
+                </table>
+            </main>
+            <footer>
+                <p class="p_footer">Showing <span class="footer_bolt">5</span> out of <span class="footer_bolt">25</span> entries</p>
+                <p class="p_footer"><a class="a_footer" href="">Previous</a> <span class="span_footer">1</span> <span class="span_footer">2</span> <span class="span_footer">3</span> <span class="span_footer">4</span> <span class="span_footer">5</span> <a class="a_footer" href="">Next</a></p>
+            </footer> 
+        </div>  
+        <script src="../js/localStorage.js"></script>
+        <script src="../js/listarUsuarios.js"></script>
+    </body>
+</html>

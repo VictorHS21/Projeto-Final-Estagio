@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/*caixa toda*/
+body {
+    background-color: darkgray;
+    padding: 15px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/*caixa central*/
+#box_login, #box_game {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 22%;
+    color: white;
+}
+/*https://www.youtube.com/watch?v=WBMN-PcwqG8, esse video explica basstante coisa
+  sobre como utilizar o flexbox.
+  https://www.youtube.com/watch?v=4_yovxCfGAE, e esse explica sobre a tag input
+  como um todo.*/
+
+#container {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    color: white;
+}

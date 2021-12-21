@@ -1,0 +1,195 @@
+/*itens específicos*/
+.margin_icom {
+    margin: 0px 5px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+
+
+/*header*/
+header {
+    height: 10vh;
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+h1 {
+    margin: 0px;
+    margin: auto 5px auto 25px;
+}
+
+#logo {
+    font-weight: normal;
+}
+
+#div_header {
+    margin: auto 20px auto 5px;
+}
+
+.button_header {
+    text-decoration: none;
+    color: gray;
+    margin: 8px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    float: left;
+}
+
+
+
+/*main*/
+main {
+    background-color: white;
+    color: gray;
+    padding: 30px;
+    padding-bottom: 0px;
+    height: 65vh;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.tr {
+  height: 11.97vh;
+}
+
+.line_th {
+    padding: 10px;
+    border-bottom: 2px solid gray; 
+    border-spacing: 0px;
+}
+
+.just {
+    padding-left: 15px;
+}
+
+.align {
+    text-align: center;
+}
+
+.line_td {
+    padding: 10px;
+    border-bottom: 1px solid gray; 
+    border-spacing: 0px;
+}
+
+.last_line_td {
+    padding: 10px;
+}
+
+.first_colum {
+    width: 50px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.last_colum {
+    width: 95px;
+}
+
+.img_table {
+    width: 40px;
+    margin-right: 15px;
+    border-radius: 40px;
+}
+
+.center_table {
+    display: flex;
+    align-items: center;
+}
+
+.bold_table {
+    font-weight: bold;
+}
+
+
+/*config_icons*/
+.icom_file {
+    font-size: 20px;
+}
+
+.add_icom {
+    font-size: 20px;
+    transform: rotate(45deg);
+}
+
+.point_green {
+    font-size: 10px;
+    color: green;
+}
+
+.point_red {
+    font-size: 10px;
+    color: red;
+}
+
+.point_orange {
+    font-size: 10px;
+    color: orange;
+}
+
+.dice {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.gear {
+    font-size: 20px;
+    color: blue;
+    margin-right: 10px;
+}
+
+.close {
+    font-size: 20px;
+    color: red;
+}
+
+
+
+/*footer*/
+footer {
+    height: 10vh;
+    padding: 8px;
+    background-color: white;
+    color: gray;
+    border-top: 3px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p_footer {
+    margin: auto 30px;
+}
+
+.footer_bolt {
+    font-weight: bold;
+}
+
+.a_footer {
+    text-decoration: none;
+    color: inherit;
+}
+
+.a_footer:hover {
+    text-decoration: underline;
+}
+
+.span_footer {
+    padding: 5px 8px 3px;
+    cursor: pointer;
+}
+
+.span_footer:hover {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 3px;
+}
